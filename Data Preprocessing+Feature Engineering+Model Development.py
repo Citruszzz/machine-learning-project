@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # Step 1: Data Preprocessing
 # Read the dataset
-df = pd.read_csv('housedata.csv')
+df = pd.read_csv('Data_collection.csv')
 
 # Split the dataset into features (X) and target variable (y)
 X = df.drop('Sale_Price', axis=1)
@@ -63,4 +63,9 @@ plt.xlabel('Actual Sale Price')
 plt.ylabel('Predicted Sale Price')
 plt.title('Actual vs Predicted Sale Price')
 plt.show()
+
+from joblib import dump
+
+# Save the trained model to a file
+dump(model, '/Users/Citruszzz/Downloads/trained_model.pkl')
 
