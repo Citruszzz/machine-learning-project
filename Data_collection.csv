@@ -1,3 +1,15 @@
+Bathrooms: Number of bathrooms in the house
+Bedrooms: Number of bedrooms in the house
+Garage: Number of garage spaces
+House_Type: Type of the house (e.g., Loft, Townhouse, Row House, Apartment)
+Neighborhood: Neighborhood where the house is located
+Pool: Whether the house has a pool (0 for No, 1 for Yes)
+Property_ID: Unique identifier for each property
+Renovated_Year: Year when the house was renovated
+Sale_Price: Selling price of the house
+Square_Feet: Total square feet of the house
+Year_Built: Year when the house was built
+
 Bathrooms,Bedrooms,Garage,House_Type,Neighborhood,Pool,Property_ID,Renovated_Year,Sale_Price,Square_Feet,Year_Built
 2.5,5,2,Loft,Bella Vista,0,1,2020,179967,2047,1928
 3.0,4,2,Townhouse,Center City,1,2,2020,657247,5976,1909
